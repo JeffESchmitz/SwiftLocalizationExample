@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.title = NSLocalizedString("nav-title-hey", comment: "Navigation Title: Hey")
+//        self.navigationItem.title = "foobar"
+        
     }
 
     override func didReceiveMemoryWarning() {
