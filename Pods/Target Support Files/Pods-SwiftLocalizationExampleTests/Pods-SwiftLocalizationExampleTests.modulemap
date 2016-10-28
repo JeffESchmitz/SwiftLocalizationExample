@@ -1,0 +1,6 @@
+framework module Pods_SwiftLocalizationExampleTests {
+  umbrella header "Pods-SwiftLocalizationExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
