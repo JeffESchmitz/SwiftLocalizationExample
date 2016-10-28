@@ -1,3 +1,13 @@
 
 /* Class = "UILabel"; text = "Hello World"; ObjectID = "88l-o5-B2g"; */
 "88l-o5-B2g.text" = "Hello World";
+
+/* Class = "UIButton"; normalTitle = "Russian"; ObjectID = "LXn-C3-Cq5"; */
+"LXn-C3-Cq5.normalTitle" = "Russian";
+
+/* Class = "UIButton"; normalTitle = "Portuguese"; ObjectID = "glw-ub-t1W"; */
+"glw-ub-t1W.normalTitle" = "Portuguese";
+
+/* Class = "UIButton"; normalTitle = "Reset - English"; ObjectID = "mSL-IN-RHd"; */
+"mSL-IN-RHd.normalTitle" = "Reset - English";
+

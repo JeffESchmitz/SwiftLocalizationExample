@@ -42,6 +42,39 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="Main.View.HelloWorldLabel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSL-IN-RHd" userLabel="Reset - English">
+                                <frame key="frameInset" minX="16" minY="72" width="176" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset - English"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="resetEnglishButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetEnglishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvn-Co-CXE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glw-ub-t1W" userLabel="Portuguese">
+                                <frame key="frameInset" minX="16" minY="110" width="176" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Portuguese"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="portugueseButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="portugueseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qD8-U2-sDG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXn-C3-Cq5" userLabel="Russian">
+                                <frame key="frameInset" minX="16" minY="148" width="176" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Russian"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="russianButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="russianButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uz0-d1-w6E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -50,10 +83,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ziH-DG-6VB"/>
+                    <connections>
+                        <outlet property="LabelHelloWorld" destination="88l-o5-B2g" id="Dw5-nN-6eU"/>
+                        <outlet property="portugueseButton" destination="glw-ub-t1W" id="Z4a-NT-0v6"/>
+                        <outlet property="resetEnglishButton" destination="mSL-IN-RHd" id="dow-lQ-WMW"/>
+                        <outlet property="russianButton" destination="LXn-C3-Cq5" id="TwF-ta-bag"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="386"/>
+            <point key="canvasLocation" x="348" y="385.45727136431788"/>
         </scene>
     </scenes>
 </document>

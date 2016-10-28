@@ -1,12 +1,15 @@
 PODS:
   - IBLocalizable (1.1.0)
+  - Localize-Swift (1.6)
 
 DEPENDENCIES:
   - IBLocalizable
+  - Localize-Swift (~> 1.6)
 
 SPEC CHECKSUMS:
   IBLocalizable: 6908d319593ac61d294a4dc704a11def6aa3e1fb
+  Localize-Swift: d34c70b34ffb1468b2942c3f0b5c1dfd9119877e
 
-PODFILE CHECKSUM: e2213a2ae9cce11e6d1a164c7710d408afbb3f5d
+PODFILE CHECKSUM: 0c1e20c04c763ad3f52b0d1eabb59a9da5d0b578
 
 COCOAPODS: 1.1.0.rc.2

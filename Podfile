@@ -1,4 +1,5 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
 # platform :ios, '9.0'
 
 target 'SwiftLocalizationExample' do
@@ -7,6 +8,7 @@ target 'SwiftLocalizationExample' do
 
   # Pods for SwiftLocalizationExample
   pod 'IBLocalizable'
+  pod 'Localize-Swift', '~> 1.6'
 
   target 'SwiftLocalizationExampleTests' do
     inherit! :search_paths

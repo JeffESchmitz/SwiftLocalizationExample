@@ -1,3 +1,10 @@
-/* Navigation Title: Hey */
-"nav-title-hey" = "Hey";
+/* (No Commment) */
 "Main.View.HelloWorldLabel" = "Привет народ";
+
+/* Navigation Title: Hey */
+"nav-title-hey" = "Привет";
+
+"resetEnglishButton" = "Сбросить на английском";
+"portugueseButton" = "португальский";
+"russianButton" = "русский";
+
